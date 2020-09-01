@@ -1,5 +1,12 @@
 # CC2Vec: Distributed Representations of Code Changes [[pdf](https://arxiv.org/pdf/2003.05620.pdf)]
 
+This study was published at ICSE 2020 (42nd International Conference on Software Engineering).
+https://2020.icse-conferences.org/track/icse-2020-papers
+
+
+## About
+Existing work on software patches often use features specific to a single task. These works often rely on manually identified features, and human effort is required to identify these features for each task. In this work, we propose CC2Vec, a neural network model that learns the representation of code changes guided by their accompanying log messages, which represent the semantic intent of the code changes. CC2Vec models the hierarchical structure of a code change with the help of the attention mechanism and uses multiple comparison functions to represent the differences between the removed and added code. To evaluate if CC2Vec can produce a distributed representation of code changes that is general and useful for multiple tasks on software patches, we use the vectors produced by CC2Vec for three tasks: log message generation, bug fixing patch identification, and just-in-time defect prediction. In all tasks, the models using CC2Vec outperform the state-of-the-art techniques.
+
 ## Contact
 Questions and discussion are welcome: vdthoang.2016@smu.edu.sg
 
